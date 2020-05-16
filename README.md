@@ -17,4 +17,8 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create an Express server to host a website by creating server.js. Be careful about the code order in Listing 2-3. Update package.json to change Start Script.
 * Separate JSX from index.html by creating an external script App.jsx. Do not forget the file path for App.jsx in the index.html.
 * Install Babel to locally transform JSX to pure JavaScript on build up. The command line "npx babel src --presets @babel/react --out-dir public" should be changed into "npx babel public\src --presets @babel/react --out-dir public" if you are in the project root directory. Update the script code block in the index.html.
-* Install preset-env for older browsers support with syntactic changes. Browsers and their versions can be set in the .babelrc file. Update Babel polyfill in index.html to do new functions' implementations called polyfills.
+* Install preset-env for older browsers support with syntactic changes. Browsers and their versions can be set in the .babelrc file. Update Babel polyfill in index.html to do new functions' implementations called polyfills. Remember to use "public/src" instead of "src" in teh command line as stated above.
+* Update scripts of package.json with custom commands to do the automation by using Babel --watch option for recompiling source change and nodemon -w option for restarting server when server code is changed. Remember the correct path "public/src" which differs from the code "src" in Listing 2-11.
+* Here is the screen shot of the Hello World screen displayed on localhost port 3000.
+
+![ch02](/readme_images/ch02.png)
