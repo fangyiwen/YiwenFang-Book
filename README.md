@@ -15,3 +15,4 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Use JSX to substitute React.createElement() calls to redo the Hello Word HTML file. Compiler Babel is imported to transform JSX into React.createElement() calls.
 * Install nvm and Node.js version 10. Install Express version 4. Be careful to choose the right version when typing the command line.
 * Create an Express server to host a website by creating server.js. Be careful about the code order in Listing 2-3. Update package.json to change Start Script.
+* Separate JSX from index.html by creating an external script App.jsx. Do not forget the file path for App.jsx in the index.html.
