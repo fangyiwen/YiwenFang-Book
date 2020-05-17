@@ -12,6 +12,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 ## Chapter 3
 
 * Start to use React components instantiated from React classes, extended from the base class React.Component, in the JSX file. Introduce render() method to display the component. An instance can be created by using <HelloWorld/>. Caution: render() can only return single value, <div><div/>.
+* Compose components of IssueLIst from three components, i.e., IssueFilter, IssueTable and IssueAdd. Pay attention to the Fragment component since it does something like <div> but has no effect on the DOM.
 
 
 ---
