@@ -1,11 +1,17 @@
-const continents = ['Africa', 'America', 'Asia', 'Australia', 'Europe'];
-const helloContinents = Array.from(continents, c => `Hello ${c}!`);
-const message = helloContinents.join(' ');
+class HelloWord extends React.Component {
+  render() {
+    const continents = ['Africa', 'America', 'Asia', 'Australia', 'Europe'];
+    const helloContinents = Array.from(continents, c => `Hello ${c}!`);
+    const message = helloContinents.join(' ');
 
-const element = (
-    <div title="Outer div">
-      <h1>{message}</h1>
-    </div>
-);
+    return (
+        <div title="Outer div">
+          <h1>{message}</h1>
+        </div>
+    );
+  }
+}
+
+const element = <HelloWord/>;
 
 ReactDOM.render(element, document.getElementById('content'));
