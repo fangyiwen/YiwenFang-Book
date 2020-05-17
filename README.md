@@ -13,6 +13,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 
 * Start to use React components instantiated from React classes, extended from the base class React.Component, in the JSX file. Introduce render() method to display the component. An instance can be created by using <HelloWorld/>. Caution: render() can only return single value, <div><div/>.
 * Compose components of IssueLIst from three components, i.e., IssueFilter, IssueTable and IssueAdd. Pay attention to the Fragment component since it does something like <div> but has no effect on the DOM.
+* Pass data using properties from a parent component to a child component. The key point is to use this.props in the child component to access associated attributes in the parent component. Remember {} to switch into the JavaScript world.
 
 
 ---
