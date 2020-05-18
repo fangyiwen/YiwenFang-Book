@@ -11,10 +11,10 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 
 ## Chapter 3
 
-* Start to use React components instantiated from React classes, extended from the base class React.Component, in the JSX file. Introduce render() method to display the component. An instance can be created by using <HelloWorld/>. Caution: render() can only return single value, warped in \<div>\<div/>.
-* Compose components of IssueLIst from three components, i.e., IssueFilter, IssueTable and IssueAdd. Pay attention to the Fragment component since it does something like <div> but has no effect on the DOM.
+* Start to use React components instantiated from React classes, extended from the base class React.Component, in the JSX file. Introduce render() method to display the component. An instance can be created by using <HelloWorld/>. Caution: render() can only return single value.
+* Compose components of IssueLIst from three components, i.e., IssueFilter, IssueTable and IssueAdd. Pay attention to the Fragment component since it does something like \<div> but has no effect on the DOM.
 * Pass data using properties from a parent component to a child component. The key point is to use this.props in the child component to access associated attributes in the parent component. Remember {} to switch into the JavaScript world.
-* Pass Data using children to let the parent component access the children element. The key point is to use this.props.children for the parent component. Remember to wrap components within a parent component.
+* Pass data using children to let the parent component access the children element. The key point is to use this.props.children for the parent component. Remember to wrap components within a parent component.
 * Do dynamic composition by using generated set of components from an array of issues instead of hard-coded set of components. Be careful about JavaScript expressions within the curly braces. Update CSS in index.html and toDateString() in App.jsx.
 * Here is the screen shot of the Issue Tracker screen displayed on localhost port 3000.
 
