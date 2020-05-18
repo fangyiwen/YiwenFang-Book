@@ -15,6 +15,10 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Compose components of IssueLIst from three components, i.e., IssueFilter, IssueTable and IssueAdd. Pay attention to the Fragment component since it does something like <div> but has no effect on the DOM.
 * Pass data using properties from a parent component to a child component. The key point is to use this.props in the child component to access associated attributes in the parent component. Remember {} to switch into the JavaScript world.
 * Pass Data using children to let the parent component access the children element. The key point is to use this.props.children for the parent component. Remember to wrap components within a parent component.
+* Do dynamic composition by using generated set of components from an array of issues instead of hard-coded set of components. Be careful about JavaScript expressions within the curly braces. Update CSS in index.html and toDateString() in App.jsx.
+* Here is the screen shot of the Issue Tracker screen displayed on localhost port 3000.
+
+![ch03](/readme_images/ch03.png)
 
 
 ---
