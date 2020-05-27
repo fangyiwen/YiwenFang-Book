@@ -17,6 +17,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Lift state up to IssueList by moving the state and initial state loading method. Remember to use `this.props` to get data. Note: `bind` method is used to refer correct `this` for the correct scope.
 * Create event handling by implementing `onClick` and `onSubmit` for the form. Remember to do `this.handleSubmit = this.handleSubmit.bind(this)`. Do not forget `preventDefault()` when clicking the Add button.
 * Create stateless components by substituting component classes with functions. Note: The classes must have no states, but dependence on props is optional.
+* Here is the screen shot of the Issue Tracker screen displayed on localhost port 3000.
 
 ![ch04](/readme_images/ch04.png)
 
