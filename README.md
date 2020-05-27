@@ -16,6 +16,9 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * A new copy of updated array and object are needed before `this.setState` is performed. Note: `this.state` here is treated as immutable, and we can't operate directly on it. Remember to use a fresh array of issues in the `setState()` call.
 * Lift state up to IssueList by moving the state and initial state loading method. Remember to use `this.props` to get data. Note: `bind` method is used to refer correct `this` for the correct scope.
 * Create event handling by implementing `onClick` and `onSubmit` for the form. Remember to do `this.handleSubmit = this.handleSubmit.bind(this)`. Do not forget `preventDefault()` when clicking the Add button.
+* Create stateless components by substituting component classes with functions. Note: The classes must have no states, but dependence on props is optional.
+
+![ch04](/readme_images/ch04.png)
 
 
 ---
