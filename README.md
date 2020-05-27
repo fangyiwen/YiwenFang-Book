@@ -14,6 +14,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Use `this.state` to capture the state of a component. The initial state is done in the component constructor by assigning the hard-coded issues as values to the variables (keys).
 * `this.setState()` is used to modify the state by inserting one argument containing issues as the key. Be sure to initialize the issues as empty array ([]) before using `this.setState()`. Asynchronous `this.setState()` is realized by using `setTimeout()`. `componentDidMount()` is called to ensure the DOM is guaranteed to be ready. Therefore, async state initialization is done.
 * A new copy of updated array and object are needed before `this.setState` is performed. Note: `this.state` here is treated as immutable, and we can't operate directly on it. Remember to use a fresh array of issues in the `setState()` call.
+* Lift state up to IssueList by moving the state and initial state loading method. Remember to use `this.props` to get data. Note: `bind` method is used to refer correct `this` for the correct scope.
 
 
 ---
