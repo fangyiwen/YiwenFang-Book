@@ -15,6 +15,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create GraphQL schema file separately from the JavaScript file. `fs` module and the `readFileSync` function are required to read the file into a string. Note: Add `-e js,graphql` to watch for changes in the server directory.
 * Use the List API to fetch a list of issues. The tests are done via the Playground. Note: There is no comma separation for type Issue, Query, and Mutation in schema.graphql, as well as the query test in the Playground.
 * Create List API Integration by fetching the data from the server for `loadData()`. Note: Use `await` keyword for asynchronous calls.
+* Create Custom Scalar Types by using `scalar GraphQLDate` in the schema.graphql. A scalar type resolver is required in the server.js. Then the native Date type is converted in the App.jsx.
 
 
 ---
