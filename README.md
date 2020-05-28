@@ -16,6 +16,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Use the List API to fetch a list of issues. The tests are done via the Playground. Note: There is no comma separation for type Issue, Query, and Mutation in schema.graphql, as well as the query test in the Playground.
 * Create List API Integration by fetching the data from the server for `loadData()`. Note: Use `await` keyword for asynchronous calls.
 * Create Custom Scalar Types by using `scalar GraphQLDate` in the schema.graphql. A scalar type resolver is required in the server.js. Then the native Date type is converted in the App.jsx.
+* Do The Create API by implementing an API for creating a new issue. Use `input` keyword for new input type `IssueInputs`. Note the format of comments for real documentation in the schema. Add `parseValue` and `parseLiteral` in the GraphQLDate resolver.
 
 
 ---
