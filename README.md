@@ -9,6 +9,14 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 # Chapter notes
 
 
+## Chapter 5
+
+* I am starting doing Express and GraphQL. Express and REST API are investigated for its functions. The About API is a simple API in GraphQL. Note: graphql@14.2.1 is required to be installed for this part. 
+
+
+---
+
+
 ## Chapter 4
 
 * Use `this.state` to capture the state of a component. The initial state is done in the component constructor by assigning the hard-coded issues as values to the variables (keys).
