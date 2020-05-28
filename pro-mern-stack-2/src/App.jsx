@@ -8,7 +8,7 @@ const initialIssues = [
     id: 2, status: 'Assigned', owner: 'Eddie', effort: 14,
     created: new Date('2018-08-16'), due: new Date('2018-08-30'),
     title: 'Missing bottom border on panel',
-  }
+  },
 ];
 
 class IssueFilter extends React.Component {
