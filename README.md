@@ -14,6 +14,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * I am starting doing Express and GraphQL. Express and REST API are investigated for its functions. The About API is a simple API in GraphQL. Note: graphql@14.2.1 is required to be installed for this part.
 * Create GraphQL schema file separately from the JavaScript file. `fs` module and the `readFileSync` function are required to read the file into a string. Note: Add `-e js,graphql` to watch for changes in the server directory.
 * Use the List API to fetch a list of issues. The tests are done via the Playground. Note: There is no comma separation for type Issue, Query, and Mutation in schema.graphql, as well as the query test in the Playground.
+* Create List API Integration by fetching the data from the server for `loadData()`. Note: Use `await` keyword for asynchronous calls.
 
 
 ---
