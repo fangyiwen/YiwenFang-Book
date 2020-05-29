@@ -18,6 +18,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create Custom Scalar Types by using `scalar GraphQLDate` in the schema.graphql. A scalar type resolver is required in the server.js. Then the native Date type is converted in the App.jsx.
 * Do The Create API by implementing an API for creating a new issue. Use `input` keyword for new input type `IssueInputs`. Note the format of comments for real documentation in the schema. Add `parseValue` and `parseLiteral` in the GraphQLDate resolver.
 * Create API Integration by modifying the new issue in the UI. Pay attention the syntax `${}`. 
+* Create Query Variables to deal with dynamic user input as arguments. Remember to use `$` before the variable names such as `$message`, and the variable needs to be declared before being accepted.
 
 
 ---
