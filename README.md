@@ -13,6 +13,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 
 * One server is separated into two servers, UI server to serve static content and API server to host just the API. Remove any unnecessary components of dependencies/devDependencies in `package.json` for UI and API. Note: The website is accessed via the port of 8000, instead of 3000, from localhost.
 * Accommodate multiple environments via environment variables. `dotenv` should be installed. Therefore, predetermining the ports and the MongoDB URL is not needed.
+* Create proxy-based architecture to accommodate the same-origin policy. The proxy called `http-proxy-middleware` should be implemented for UI server. Note: proxy method and enabling CORS for UI direct calls to API are both good.
 
 
 ---
