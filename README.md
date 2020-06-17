@@ -13,6 +13,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 
 * I have studied the MongoDB basics and CRUD operations on the localhost. Robo 3T is also installed as a GUI.
 * MongoDB Node.js Driver is installed for the project. Try to repeat `npm install mongodb@3` several times since it may fail sometimes. Remember to add Mongo's bin folder to the path environment variable to use `mongo` in the cmd. The Callbacks Paradigm is used for `trymongo.js`.
+* `testWithAsync()` within `trymongo.js` is used by implementing the async/await paradigm.
 
 
 ---
