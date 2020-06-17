@@ -15,6 +15,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * MongoDB Node.js Driver is installed for the project. Try to repeat `npm install mongodb@3` several times since it may fail sometimes. Remember to add Mongo's bin folder to the path environment variable to use `mongo` in the cmd. The Callbacks Paradigm is used for `trymongo.js`.
 * `testWithAsync()` within `trymongo.js` is used by implementing the async/await paradigm.
 * Create schema initialization in `init.mongo.js`. The main task is the creation of indexes.
+* Create reading from MongoDB by using the List API. Remember to add ID as its GraphQL data type to be able to access this field `_id`. 
 
 
 ---
