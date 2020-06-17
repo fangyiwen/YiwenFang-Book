@@ -16,6 +16,9 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * `testWithAsync()` within `trymongo.js` is used by implementing the async/await paradigm.
 * Create schema initialization in `init.mongo.js`. The main task is the creation of indexes.
 * Create reading from MongoDB by using the List API. Remember to add ID as its GraphQL data type to be able to access this field `_id`. 
+* Create writing to MongoDB by using the Create API. `findOneAndUpdate()` is used to update a counter and return the updated value, thus generating a sequence of numbers.
+
+![ch06](/readme_images/ch06.png)
 
 
 ---
