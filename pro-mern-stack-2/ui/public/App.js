@@ -28,7 +28,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 /* eslint "react/react-in-jsx-scope": "off" */
 
-/* globals React ReactDOM */
+/* globals React ReactDOM PropTypes */
 
 /* eslint "react/jsx-no-undef": "off" */
 
@@ -134,6 +134,10 @@ var IssueAdd = /*#__PURE__*/function (_React$Component2) {
 
   return IssueAdd;
 }(React.Component);
+
+IssueAdd.propTypes = {
+  createIssue: PropTypes.func.isRequired
+};
 
 function graphQLFetch(_x) {
   return _graphQLFetch.apply(this, arguments);

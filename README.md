@@ -14,8 +14,14 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * One server is separated into two servers, UI server to serve static content and API server to host just the API. Remove any unnecessary components of dependencies/devDependencies in `package.json` for UI and API. Note: The website is accessed via the port of 8000, instead of 3000, from localhost.
 * Accommodate multiple environments via environment variables. `dotenv` should be installed. Therefore, predetermining the ports and the MongoDB URL is not needed.
 * Create proxy-based architecture to accommodate the same-origin policy. The proxy called `http-proxy-middleware` should be implemented for UI server. Note: proxy method and enabling CORS for UI direct calls to API are both good.
-* Use ESLint to check for suspicious code. The rules are set in the `.eslintrc` file, a JSON specification. Note: On page 191, rules should be "rules" with quotes. ESLint plugin is installed for WebStorm.
+* Use ESLint to check for suspicious code. The rules are set in the `.eslintrc` file, a JSON specification. ESLint plugin is installed for WebStorm. Note: 1) On page 191, `rules` should be `"rules"` with quotes; 2) On Page 193, `errors.push('Field "title" must be at least 3 characters long.');` and `if (issue.status === 'Assigned' && !issue.owner) {` should be put in `issueValidate`, not `issueAdd`; 3) Use `"node": true` instead of `"node": "true"` for any `.eslintrc`.
 * Use ESLint for the front-end by adding ESLint checking to the UI directory. Remember to include the extensions such as js and jsx by using `--ext js,jsx`, and exclude the public directory by using `--ignore-pattern public`.
+* Use React PropTypes to ensure passed-in parameters valid against this specification. The validators are the constants exported by `PropTypes` which should be included in `index.html` from the CDN.
+* The screenshots from my environment show clean linter runs on both the API and UI side:
+
+![ch07](/readme_images/ch07_1.png)
+
+![ch07](/readme_images/ch07_2.png)
 
 
 ---
