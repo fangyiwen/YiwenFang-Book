@@ -9,6 +9,14 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 # Chapter notes
 
 
+## Chapter 8
+
+* Create back-end modules by moving out the server.js code to individual files. The two key elements to interact with the module system. achieving modularization is `require` and `exports`. Note: 1) Do not forget `./` to import symbols from a file in the same directory. 2) On page 204, `require('graphql_date.js')` should be `require('./graphql_date.js')`.
+
+
+---
+
+
 ## Chapter 7
 
 * One server is separated into two servers, UI server to serve static content and API server to host just the API. Remove any unnecessary components of dependencies/devDependencies in `package.json` for UI and API. Note: The website is accessed via the port of 8000, instead of 3000, from localhost.
