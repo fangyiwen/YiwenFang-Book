@@ -12,6 +12,8 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 ## Chapter 8
 
 * Create back-end modules by moving out the server.js code to individual files. The two key elements to interact with the module system. achieving modularization is `require` and `exports`. Note: 1) Do not forget `./` to import symbols from a file in the same directory. 2) On page 204, `require('graphql_date.js')` should be `require('./graphql_date.js')`.
+* Create front-end modules and Webpack by splitting client-side JavaScript to multiple files. They are included in the `<script>` tags in the `index.html`. Note: `--mode development` can be added to get rid of the warning message in the command line when running Webpack on the `App.js`.
+`export default` is used if a single function is being exported.
 
 
 ---
