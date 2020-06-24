@@ -17,6 +17,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create transform and bundle by implementing `loaders` in Webpack. The Webpack configuration is defined in `webpack.config.js`.
 * Create libraries bundle by using Webpack to include third-party libraries directly from a CDN. `splitChunks` is used to create two bundles, one for the application code and another for all the libraries, called `app.bundle.js` and `vendor.bundle.js`.
 * Create hot module replacement to change modules in the browser while the application is running, instead of refreshing. HotModuleReplacementPlugin's `accept()` is used to accept the changes to a module which is rebuilt and received in the browser.
+* Create debugging by implementing source maps to connect the line numbers in the transformed code to the original code. Note: The missing trailing comma in the `devtool: 'source-map',` will raise ESLint error.
 
 
 ---
