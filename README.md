@@ -9,6 +9,14 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 # Chapter notes
 
 
+## Chapter 9
+
+* Create simple routing by implementing React Router. The page is split into two sections, a navigation bar and a contents section. Note: 1) `<Switch>` means only the first match's component is rendered; 2) The match is a prefix match; 3) `exact` is added as exact match.
+
+
+---
+
+
 ## Chapter 8
 
 * Create back-end modules by moving out the server.js code to individual files. The two key elements to interact with the module system. achieving modularization is `require` and `exports`. Note: 1) Do not forget `./` to import symbols from a file in the same directory. 2) On page 204, `require('graphql_date.js')` should be `require('./graphql_date.js')`.

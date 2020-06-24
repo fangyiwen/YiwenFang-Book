@@ -36,7 +36,7 @@ const UI_API_ENDPOINT = process.env.UI_API_ENDPOINT
 const env = { UI_API_ENDPOINT };
 
 app.get('/env.js', (req, res) => {
-  // From instructor: eliminate a content-type related error in Firefox console.
+  // From instructor: eliminate a content-type related error in Firefox console
   res.set('Content-Type', 'application/javascript');
   res.send(`window.ENV = ${JSON.stringify(env)}`);
 });
