@@ -19,6 +19,10 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create hot module replacement to change modules in the browser while the application is running, instead of refreshing. HotModuleReplacementPlugin's `accept()` is used to accept the changes to a module which is rebuilt and received in the browser.
 * Create debugging by implementing source maps to connect the line numbers in the transformed code to the original code. Note: The missing trailing comma in the `devtool: 'source-map',` will raise ESLint error.
 
+* The screenshot of the browser console displaying the Webpack Hot Module Replacement logging is shown here:
+
+![ch08](/readme_images/ch08.png)
+
 
 ---
 
