@@ -15,6 +15,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create front-end modules and Webpack by splitting client-side JavaScript to multiple files. They are included in the `<script>` tags in the `index.html`. Note: `--mode development` can be added to get rid of the warning message in the command line when running Webpack on the `App.js`.
 `export default` is used if a single function is being exported.
 * Create transform and bundle by implementing `loaders` in Webpack. The Webpack configuration is defined in `webpack.config.js`.
+* Create libraries bundle by using Webpack to include third-party libraries directly from a CDN. `splitChunks` is used to create two bundles, one for the application code and another for all the libraries, called `app.bundle.js` and `vendor.bundle.js`.
 
 
 ---
