@@ -12,6 +12,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 ## Chapter 9
 
 * Create simple routing by implementing React Router. The page is split into two sections, a navigation bar and a contents section. Note: 1) `<Switch>` means only the first match's component is rendered; 2) The match is a prefix match; 3) `exact` is added as exact match.
+* Create route parameters to supply parameters to the component. It isachievedd by using `:id` in the path. The `id` in the path can be accessed by `atch.params.id`.
 
 
 ---
