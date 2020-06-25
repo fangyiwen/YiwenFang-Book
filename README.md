@@ -17,6 +17,10 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create Links by replacing `hrefs` with the `Link` component. It can be achieved by changing the name of the component from `<a>` to `<Link>` and the property `href` to `to`.
 * Create programmatic navigation by implementing simple dropdown and replace the links. Trapping the changed dropdown value is done by `onChangeStatus`. The wrapped component is exported by using `withRouter()`.
 * Create nested routes which means the beginning part of the path depicts one section of a page, and the latter part of the path depicts variation, i.e., any further definition. `dynamic routing` is used since it is evaluated during the process of rendering. The description fields are added in the `schema.graphql`. `findOne()` is called as the MongoDB filter. Update description fields in the MongoDB. The `IssueDetail` component is implemented. Note: `parseInt(id, 10)` is used to parse a string as a decimal value in `const data = await graphQLFetch(query, { id: parseInt(id, 10) });`. `this.props.match.path` is used to generate paths for the `IssueList` component integrated with the `IssueDetail` component. Finally, the current query string is added by injecting the location from `withRouter` in the `IssueTable.jsx`.
+* Create browser history router by replacing `HashRouter` with `BrowserRouter` in `App.jsx`. Right refresh is achieved by adding routes for the path * to return index.html in `uiserver.js`. `publicPath: '/',` is added in `webpack.config.js` to make HMR works fine from any pages.
+* The screenshot showing the functionality in action is below:
+
+![ch09](/readme_images/ch09.png)
 
 
 ---
