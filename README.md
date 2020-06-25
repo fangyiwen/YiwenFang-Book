@@ -15,6 +15,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create route parameters to supply parameters to the component. It isachievedd by using `:id` in the path. The `id` in the path can be accessed by `atch.params.id`.
 * Create query parameters by using the Query String part of the URL. The parameter `status` is added to the `issueList` query. `URLSearchParams()` is used to interpret and parse the query string. `get()` is sued to access the status parameter and `graphQLFetch()` with status filter parameter is called to get the data. Remember to call `loadData()` if the query string changes with the help of `componentDidMount()`.
 * Create Links by replacing `hrefs` with the `Link` component. It can be achieved by changing the name of the component from `<a>` to `<Link>` and the property `href` to `to`.
+* Create programmatic navigation by implementing simple dropdown and replace the links. Trapping the changed dropdown value is done by `onChangeStatus`. The wrapped component is exported by using `withRouter()`.
 
 
 ---
