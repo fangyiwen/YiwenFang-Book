@@ -12,6 +12,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 ## Chapter 10
 
 * Create controlled components by displaying the currently active filter. `URLSearchParams` is used to extract the current value during `render()`.
+* Create controlled components in forms by adding the Apply button and the Reset button for the filter. `onChange()` is trapped and `setState()` is used to update the state variable. `componentDidUpdate` is used to look for changes to properties. `showOriginalFilter` is also called from an event. Note: Replace the typo, double-quote, in the `status: params.get('status') || ''` and `search: status ? `?status=${status}` : ''` with the single-quote.
 
 
 ---
