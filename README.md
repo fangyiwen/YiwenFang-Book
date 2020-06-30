@@ -9,6 +9,14 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 # Chapter notes
 
 
+## Chapter 10
+
+* Create controlled components by displaying the currently active filter. `URLSearchParams` is used to extract the current value during `render()`.
+
+
+---
+
+
 ## Chapter 9
 
 * Create simple routing by implementing React Router. The page is split into two sections, a navigation bar and a contents section. Note: 1) `<Switch>` means only the first match's component is rendered; 2) The match is a prefix match; 3) `exact` is added as exact match.
