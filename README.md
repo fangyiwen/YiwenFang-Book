@@ -12,8 +12,9 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 ## Chapter 10
 
 * Create controlled components by displaying the currently active filter. `URLSearchParams` is used to extract the current value during `render()`.
-* Create controlled components in forms by adding the Apply button and the Reset button for the filter. `onChange()` is trapped and `setState()` is used to update the state variable. `componentDidUpdate` is used to look for changes to properties. `showOriginalFilter` is also called from an event. Note: Replace the typo, double-quote, in the `status: params.get('status') || ''` and `search: status ? `?status=${status}` : ''` with the single-quote.
+* Create controlled components in forms by adding the Apply button and the Reset button for the filter. `onChange()` is trapped and `setState()` is used to update the state variable. `componentDidUpdate` is used to look for changes to properties. `showOriginalFilter` is also called from an event. Note: Replace the typo, double-quote, in the `status: params.get('status') || "` and `search: status ? `?status=${status}` : "` with the single-quote.
 * Create more filters by adding a filter on the Effort field. `effortMin` and `effortMax` are added in the `schema.graphql`. `$gte` and `$lte` is set for MongoDB filter.
+* Create typed input by adding two inputs for the effort filter. Two extra filter parameters from the URL's search parameters are involved in the `IssueList`. Two <input> fields in the IssueFilter are added. Note: Replace the typo, double-quote, in the `effortMin: params.get('effortMin') || "`, `effortMax: params.get('effortMax') || "`, and `params.toString() ? `?${params.toString()}` : "` with the single-quote.
 
 
 ---
