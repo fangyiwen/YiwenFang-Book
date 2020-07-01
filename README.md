@@ -21,6 +21,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create text input by handling the null check and use an empty string while loading data. Note: 1) `key={id}` should be put within `<TextInput ... />`; 2) Replace the typo, double-quotes, with single-quotes.
 * Create update API by using `$set` operator. The actual resolver can be implemented in `update()`. `handleSubmit()` is used to call API to save the changes.
 *Create updating an issue by writing `handleSubmit()` to make the call to the API to save the changes.
+* Create updating a field by adding a Close button in every row of the `IssueTable`. `issueUpdate` is called to set the status to closed.
 
 
 ---
