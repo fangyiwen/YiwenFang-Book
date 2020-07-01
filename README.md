@@ -18,6 +18,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create edit form by creating a complete form for the Edit page in `IssueEdit.jsx`. Note: 1) Replace `graphQLFetch(query, { id })` with `graphQLFetch(query, { id: parseInt(id, 10) })`; 2) Replace the typo, double-quotes, with single-quotes.
 * Create number input by using number inputs for the effort field in the Edit page in place of a plain `<input>` element. Note: Replace the typo, double-quotes, with single-quotes.
 * Create date input by checking the validity when the user has finished typing the date. `onBlur()` is used. Note: Replace the typo, double-quotes, with single-quotes.
+* Create text input by handling the null check and use an empty string while loading data. Note: 1) `key={id}` should be put within `<TextInput ... />`; 2) Replace the typo, double-quotes, with single-quotes.
 
 
 ---
