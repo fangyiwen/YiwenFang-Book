@@ -9,6 +9,14 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 # Chapter notes
 
 
+## Chapter 11
+
+* Create Bootstrap installation, and make a changed and visible UI. `react-bootstrap` and `bootstrap` are installed. A link to the Bootstrap stylesheet is added in `index.html`.
+
+
+---
+
+
 ## Chapter 10
 
 * Create controlled components by displaying the currently active filter. `URLSearchParams` is used to extract the current value during `render()`.
