@@ -23,6 +23,12 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create updating an issue by writing `handleSubmit()` to make the call to the API to save the changes.
 * Create updating a field by adding a Close button in every row of the `IssueTable`. `issueUpdate` is called to set the status to closed.
 * Create Delete API by including the Delete API in the schema. Then the resolver is implemented to store all deleted issues in a new collection called `deleted_issues`.
+* Create deleting an issue by adding the button and callbacks through `IssueTable` `to IssueRows`. `deleteIssue()` is implemented in the `IssueList`.
+* Screenshots of the top page list and the edit pages are below:
+
+![ch10](/readme_images/ch10_1.png)
+
+![ch10](/readme_images/ch10_2.png)
 
 
 ---
