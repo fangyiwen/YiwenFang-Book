@@ -12,6 +12,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 ## Chapter 11
 
 * Create Bootstrap installation, and make a changed and visible UI. `react-bootstrap` and `bootstrap` are installed. A link to the Bootstrap stylesheet is added in `index.html`.
+* Create Bootstrap buttons by replacing the Apply and Reset buttons in the Issue Filter.
 
 
 ---
