@@ -15,6 +15,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create Bootstrap buttons by replacing the Apply and Reset buttons in the Issue Filter.
 * Create navigation bar by adding navigation links in the header and add a footer. The navigation bar is created with `Navbar`.
 * Create Bootstrap Panel to show sections separately using a border and an optional heading. `Panel.Heading` and `Panel.Body` are used.
+* Create Bootstrap Table by converting the plain table to make the table look better, expand to fit the screen, and highlight a row on hover. The entire row is clickable to select the issue to display the description.
 
 
 ---
