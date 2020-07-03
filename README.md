@@ -22,6 +22,10 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create horizontal forms to make the label appear to the left of the input, but each field appears one below the other. Bootstrap's `<Form>` is used to replace the plain `<form>`.
 * Create validation alerts by using Bootstrap's `<Alert>` component. 
 * Create toasts by using the component `Toast` to let the messages overlay the page as well as transition in and out. Note: Use `id: parseInt(id, 10)` for `graphQLFetch` when necessary.
+* Create modals by replacing the in-page `IssueAdd` with a modal dialog. A new `IssueAddNavItem.jsx` is created to self-contain the operation of Create Issue. Note: `this.createIssue = this.createIssue.bind(this);` in `IssueList.jsx` should be deleted.
+* The screenshot of the Create Issue modal is below:
+
+![ch11](/readme_images/ch11.png)
 
 
 ---
