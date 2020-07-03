@@ -14,12 +14,14 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create Bootstrap installation, and make a changed and visible UI. `react-bootstrap` and `bootstrap` are installed. A link to the Bootstrap stylesheet is added in `index.html`.
 * Create Bootstrap buttons by replacing the Apply and Reset buttons in the Issue Filter.
 * Create navigation bar by adding navigation links in the header and add a footer. The navigation bar is created with `Navbar`.
-* Create Bootstrap Panel to show sections separately using a border and an optional heading. `Panel.Heading` and `Panel.Body` are used.
+* Create Bootstrap Panel to show sections separately using a border and an optional heading. `Panel.Heading` and `Panel.Body` are used. Note: `<NavBar />` and `<Footer />` are kept in `Page.jsx`.
 * Create Bootstrap Table by converting the plain table to make the table look better, expand to fit the screen, and highlight a row on hover. The entire row is clickable to select the issue to display the description.
-* Create Bootstrap Forms by replacing the `<input>` and `<select>` options with the React-Bootstrap components. 
+* Create Bootstrap Forms by replacing the `<input>` and `<select>` options with the React-Bootstrap components. Note: Five pieces of code like `<option value=...>...</option>` should be retained.
 * Create the grid system to let each field float or below its precedent if the width of the screen doesn't allow it. 
 * Create inline forms by making inputs to fit in one line and closely related.
 * Create horizontal forms to make the label appear to the left of the input, but each field appears one below the other. Bootstrap's `<Form>` is used to replace the plain `<form>`.
+* Create validation alerts by using Bootstrap's `<Alert>` component. 
+* Create toasts by using the component `Toast` to let the messages overlay the page as well as transition in and out. Note: Use `id: parseInt(id, 10)` for `graphQLFetch` when necessary.
 
 
 ---
