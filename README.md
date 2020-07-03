@@ -19,6 +19,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create Bootstrap Forms by replacing the `<input>` and `<select>` options with the React-Bootstrap components. 
 * Create the grid system to let each field float or below its precedent if the width of the screen doesn't allow it. 
 * Create inline forms by making inputs to fit in one line and closely related.
+* Create horizontal forms to make the label appear to the left of the input, but each field appears one below the other. Bootstrap's `<Form>` is used to replace the plain `<form>`.
 
 
 ---
