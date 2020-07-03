@@ -18,6 +18,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create Bootstrap Table by converting the plain table to make the table look better, expand to fit the screen, and highlight a row on hover. The entire row is clickable to select the issue to display the description.
 * Create Bootstrap Forms by replacing the `<input>` and `<select>` options with the React-Bootstrap components. 
 * Create the grid system to let each field float or below its precedent if the width of the screen doesn't allow it. 
+* Create inline forms by making inputs to fit in one line and closely related.
 
 
 ---
