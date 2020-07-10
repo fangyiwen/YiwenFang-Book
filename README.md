@@ -12,6 +12,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 ## Chapter 12
 
 * Create new directory structure by splitting the current source code into three directories. Note: 1) Delete right curly bracket in Page 378; 2) "rules", "error", "always", and "ignorePackages" should be in double quotes.
+* Create basic server rendering by creating an HTML on the server side via `ReactDOMServer.renderToString()`.
 
 
 ---
