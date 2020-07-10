@@ -9,6 +9,14 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 # Chapter notes
 
 
+## Chapter 12
+
+* Create new directory structure by splitting the current source code into three directories. Note: 1) Delete right curly bracket in Page 378; 2) "rules", "error", "always", and "ignorePackages" should be in double quotes.
+
+
+---
+
+
 ## Chapter 11
 
 * Create Bootstrap installation, and make a changed and visible UI. `react-bootstrap` and `bootstrap` are installed. A link to the Bootstrap stylesheet is added in `index.html`.
