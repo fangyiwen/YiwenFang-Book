@@ -14,6 +14,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create new directory structure by splitting the current source code into three directories. Note: 1) Delete right curly bracket in Page 378; 2) "rules", "error", "always", and "ignorePackages" should be in double quotes.
 * Create basic server rendering by creating an HTML on the server side via `ReactDOMServer.renderToString()`.
 * Create Webpack for the server by compiling files under the src directory for inclusion in the server side. 
+* Create HMR for the server by restarting the server when this file is changed and using HMR for the rest included code.
 
 
 ---
