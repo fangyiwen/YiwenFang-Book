@@ -19,7 +19,8 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create hydrate by loading React and letting it render the page.
 * Create data from API by replacing `whatwg-fetch` with `isomorphic-fetch`. Note: 1) `render.jsx` is in `ui/server/`; 2) The correct code in Page 401 is `process.env.UI_SERVER_API_ENDPOINT = process.env.UI_API_ENDPOINT`.
 * Create syncing initial data by passing the same initial data from the API call to the browser.
-* Create common data fetcher by adding a `componentDidMount()` method in the `About` component.
+* Create common data fetcher by adding a `componentDidMount()` method in the `About` component. Note: We can use `initialData` instead of changing into `resultData`.
+* Create generated routes by fixing the mismatch errors that React is showing and laying down the framework dealing with fetching data.
 
 
 ---
