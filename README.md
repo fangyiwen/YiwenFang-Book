@@ -21,6 +21,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create syncing initial data by passing the same initial data from the API call to the browser.
 * Create common data fetcher by adding a `componentDidMount()` method in the `About` component. Note: We can use `initialData` instead of changing into `resultData`.
 * Create generated routes by fixing the mismatch errors that React is showing and laying down the framework dealing with fetching data.
+* Create data fetcher with parameters by making the `IssueEdit` component render from the server.
 
 
 ---
