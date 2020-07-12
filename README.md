@@ -19,6 +19,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create pagination UI by creating minimalistic pagination bar to sue the new API.
 * Create undo delete API by implementing an undo action on the delete operation.
 * Create undo delete UI by initiating an undo button of a delete operation in the Toast message in the `IssueList` component. 
+* Create text index API by implementing MongoDB's text index for a quick search.
 
 
 ---
