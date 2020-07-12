@@ -17,6 +17,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create HMR for the server by restarting the server when this file is changed and using HMR for the rest included code.
 * Create server router by modifying render.js to render the Page component instead of the About component.
 * Create hydrate by loading React and letting it render the page.
+* Create data from API by replacing `whatwg-fetch` with `isomorphic-fetch`.
 
 
 ---
