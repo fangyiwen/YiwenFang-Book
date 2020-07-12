@@ -9,6 +9,15 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 # Chapter notes
 
 
+## Chapter 13
+
+* Create higher order component for Toast by creating a new component to wrap each main view to add the `Toast` functionality, i.e., `ToastWrapper`.
+* Create MongoDB aggregate by exploring MongoDB's `aggregates`. Note: `Lorem ipsum dolor sit amet, ${i}` is quoted with backticks.
+
+
+---
+
+
 ## Chapter 12
 
 * Create new directory structure by splitting the current source code into three directories. Note: 1) Delete right curly bracket in Page 378; 2) "rules", "error", "always", and "ignorePackages" should be in double quotes.
