@@ -1,4 +1,6 @@
 node_modules
-ui/dist
+pro-mern-stack-2/ui/dist
+ui/public/*.js
+ui/public/*.map
 .DS_Store
 .idea
