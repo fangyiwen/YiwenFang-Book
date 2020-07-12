@@ -20,6 +20,12 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create undo delete API by implementing an undo action on the delete operation.
 * Create undo delete UI by initiating an undo button of a delete operation in the Toast message in the `IssueList` component. 
 * Create text index API by implementing MongoDB's text index for a quick search.
+* Create search bar by implementing new component for the search bar with `react-select`. Note: `/edit/${value}` should be quoted with backticks.
+* The screenshot of the issues list page, and the report page are shown below.
+
+![ch13](/readme_images/ch13_1.png)
+
+![ch13](/readme_images/ch13_2.png)
 
 
 ---

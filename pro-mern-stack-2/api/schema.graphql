@@ -1,6 +1,6 @@
 scalar GraphQLDate
 
-enum StatusType{
+enum StatusType {
   New
   Assigned
   Fixed
