@@ -9,4 +9,5 @@ export default function IssueDetail({ issue }) {
       </div>
     );
   }
+  return null;
 }

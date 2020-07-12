@@ -18,11 +18,13 @@ function IssueDetail({
   issue
 }) {
   if (issue) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Description"));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Description"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", null, issue.description));
   }
+
+  return null;
 }
 
 /***/ })
 
 };
-//# sourceMappingURL=server.6f18d99da0343e1bb01e.hot-update.js.map
+//# sourceMappingURL=server.2049304d648375cdc3bf.hot-update.js.map

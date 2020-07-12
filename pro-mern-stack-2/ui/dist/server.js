@@ -22,7 +22,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "91c057dba6f44c2cf6e8";
+/******/ 	var hotCurrentHash = "707bfc5dd6b9ec5e9254";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1020,12 +1020,18 @@ async function render(req, res) {
   }
 
   _src_store_js__WEBPACK_IMPORTED_MODULE_5__["default"].initialData = initialData;
+  const context = {};
   const element = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["StaticRouter"], {
     location: req.url,
-    context: {}
+    context: context
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_Page_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], null));
   const body = react_dom_server__WEBPACK_IMPORTED_MODULE_1___default.a.renderToString(element);
-  res.send(Object(_template_js__WEBPACK_IMPORTED_MODULE_4__["default"])(body, initialData));
+
+  if (context.url) {
+    res.redirect(301, context.url);
+  } else {
+    res.send(Object(_template_js__WEBPACK_IMPORTED_MODULE_4__["default"])(body, initialData));
+  }
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (render);
@@ -1516,6 +1522,8 @@ function IssueDetail({
   if (issue) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Description"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", null, issue.description));
   }
+
+  return null;
 }
 
 /***/ }),
@@ -1568,7 +1576,7 @@ class IssueEdit extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       }
     } = match;
     const result = await Object(_graphQLFetch_js__WEBPACK_IMPORTED_MODULE_4__["default"])(query, {
-      id
+      id: parseInt(id, 10)
     }, showError);
     return result;
   }
@@ -1678,7 +1686,7 @@ class IssueEdit extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     } = issue;
     const data = await Object(_graphQLFetch_js__WEBPACK_IMPORTED_MODULE_4__["default"])(query, {
       changes,
-      id
+      id: parseInt(id, 10)
     }, this.showError);
 
     if (data) {
