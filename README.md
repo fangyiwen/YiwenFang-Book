@@ -24,7 +24,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create data fetcher with parameters by making the `IssueEdit` component render from the server.
 * Create data fetcher with search by implementing the data fetcher in the `IssueList` component.
 * Create nested components by modifying the component `IssueList` to render its contained detail.
-* Create redirects by sending a redirect in the response. Note: `parseInt(id, 10)` and conststence of `contents`.
+* Create redirects by sending a redirect in the response. Note: `parseInt(id, 10)` and consistency of `contents`.
 * The screenshot of the page source for the Issues List page with a detail issue selected displayed in the browser is shown below.
 
 ![ch12](/readme_images/ch12.png)
