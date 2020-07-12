@@ -15,6 +15,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create MongoDB aggregate by exploring MongoDB's `aggregates`. Note: `Lorem ipsum dolor sit amet, ${i}` is quoted with backticks.
 * Create Issue Counts API by making the aggregate query to MongoDB.
 * Create Report Page by constructing the UI for the Report page besides the working API.
+* Create List API with pagination by modifying the List API to support pagination.
 
 
 ---
