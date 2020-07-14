@@ -15,6 +15,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create Google Sign-In by using Google to retrieve the user's name. There are some tricky steps to enable the clickable "Sign in with Google" button. Note: 1) Activate Google Analytics API; 2) Create new OAuth client ID; 3) Add `http://localhost:8000` to `Authorized redirect URIs` and `Authorized JavaScript origins`. 4) Use the new client ID in place of YOUR_CLIENT_ID. Also remember to copy `sample.env` into a `.env` file.
 * Create verifying the Google Token by Validating a token at the back-end. The Google authentication library `body-parser` and `google-auth-library` are used.
 * Create JSON Web Tokens by using JSON Web Tokens to generate a token and send it back to the browser, thus persisting the session.
+* Create Signing Out by implementing another API to sign out.
 
 
 ---
