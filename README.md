@@ -16,6 +16,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create verifying the Google Token by Validating a token at the back-end. The Google authentication library `body-parser` and `google-auth-library` are used.
 * Create JSON Web Tokens by using JSON Web Tokens to generate a token and send it back to the browser, thus persisting the session.
 * Create Signing Out by implementing another API to sign out.
+* Create Authorization by implementing a simple authorization rule.
 
 
 ---
