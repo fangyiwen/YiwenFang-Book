@@ -9,6 +9,14 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 # Chapter notes
 
 
+## Chapter 14
+
+* Create Sign-In UI by creating `SignInNavItem` to be placed in the navigation bar.
+
+
+---
+
+
 ## Chapter 13
 
 * Create higher order component for Toast by creating a new component to wrap each main view to add the `Toast` functionality, i.e., `ToastWrapper`.
