@@ -12,6 +12,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 ## Chapter 14
 
 * Create Sign-In UI by creating `SignInNavItem` to be placed in the navigation bar.
+* Create Google Sign-In by using Google to retrieve the user's name. There are some tricky steps to enable the clickable "Sign in with Google" button. Note: 1) Activate Google Analytics API; 2) Create new OAuth client ID; 3) Add `http://localhost:8000` to `Authorized redirect URIs` and `Authorized JavaScript origins`. 4) Use the new client ID in place of YOUR_CLIENT_ID. Also remember to copy `sample.env` into a `.env` file.
 
 
 ---

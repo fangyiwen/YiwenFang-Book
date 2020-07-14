@@ -2,5 +2,7 @@ node_modules
 pro-mern-stack-2/ui/dist
 pro-mern-stack-2/ui/public/*.js
 pro-mern-stack-2/ui/public/*.map
+pro-mern-stack-2/ui/.env
+pro-mern-stack-2/credentials.json
 .DS_Store
 .idea
