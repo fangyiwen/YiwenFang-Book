@@ -12,7 +12,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 ## Chapter 14
 
 * Create Sign-In UI by creating `SignInNavItem` to be placed in the navigation bar.
-* Create Google Sign-In by using Google to retrieve the user's name. There are some tricky steps to enable the clickable "Sign in with Google" button. Note: 1) Activate Google Analytics API; 2) Create new OAuth client ID; 3) Add `http://localhost:8000` to `Authorized redirect URIs` and `Authorized JavaScript origins`. 4) Use the new client ID in place of YOUR_CLIENT_ID. Also remember to copy `sample.env` into a `.env` file.
+* Create Google Sign-In by using Google to retrieve the user's name. There are some tricky steps to enable the clickable "Sign in with Google" button. Note: 1) Activate Google Analytics API; 2) Create new OAuth client ID; 3) Add `http://localhost:8000` to `Authorized redirect URIs` and `Authorized JavaScript origins`; 4) Use the new client ID in place of YOUR_CLIENT_ID. Also remember to copy `sample.env` into a `.env` file.
 * Create verifying the Google Token by Validating a token at the back-end. The Google authentication library `body-parser` and `google-auth-library` are used.
 * Create JSON Web Tokens by using JSON Web Tokens to generate a token and send it back to the browser, thus persisting the session.
 * Create Signing Out by implementing another API to sign out.
@@ -21,6 +21,10 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create React Context by using React Context API to make components aware of the authentication status including Close, Delete, Submit buttons.
 * Create CORS with Credentials by relaxing the CORS options for non-proxy mode, thus maintaining security. `cors` package is used to enable CORS for`/auth`.
 * Create server rendering with credentials by including the authenticated information. `schema.graphql` is modified to implement the new API for the authenticated credentials. `graphQLFetch.js` is modified to include a cookie in the API request.
+* Create cookie domain by testing for real domains. The domain `promernstack.com` and its subdomains are used. `127.0.0.1 api.promernstack.com ui.promernstack.com` is added to the `hosts` file in the Windows PC. Note: 1) `http://ui.promernstack.com:8000` is added to `Authorized redirect URIs` and `Authorized JavaScript origins` in the Google Developers Console; 2) `res.clearCookie('jwt')` is modified to `res.clearCookie('jwt', { domain: process.env.COOKIE_DOMAIN, });` in `auth.js`.
+* The screenshot of the app with a user logged is shown below.
+
+![ch14](/readme_images/ch14.png)
 
 
 ---
