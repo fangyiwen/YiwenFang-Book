@@ -19,6 +19,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 * Create Authorization by implementing a simple authorization rule.
 * Create Authorization-Aware UI by making the UI aware of the signed-in status, i.e., prevent access at the UI in addition to the back-end.
 * Create React Context by using React Context API to make components aware of the authentication status including Close, Delete, Submit buttons.
+* Create CORS with Credentials by relaxing the CORS options for non-proxy mode, thus maintaining security. `cors` package is used to enable CORS for`/auth`.
 
 
 ---
