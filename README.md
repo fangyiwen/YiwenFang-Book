@@ -9,6 +9,14 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 # Chapter notes
 
 
+## Chapter 15
+
+* Create Git Repositories called `tracker-api` and `tracker-ui` for both api and ui. A `deploy` directory is created for deployment of this chapter. My deployment repos can be found here: https://github.ccs.neu.edu/yiwenfang/tracker-api and https://github.ccs.neu.edu/yiwenfang/tracker-ui.
+
+
+---
+
+
 ## Chapter 14
 
 * Create Sign-In UI by creating `SignInNavItem` to be placed in the navigation bar.
