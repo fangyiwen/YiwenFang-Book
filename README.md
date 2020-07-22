@@ -12,6 +12,7 @@ This is Dr. Yiwen Fang's repository for the project described in the book Pro ME
 ## Chapter 15
 
 * Create Git Repositories called `tracker-api` and `tracker-ui` for both api and ui. A `deploy` directory is created for deployment of this chapter. My deployment repos can be found here: https://github.ccs.neu.edu/yiwenfang/tracker-api and https://github.ccs.neu.edu/yiwenfang/tracker-ui.
+* Create API Application by deploying to Heroku via Git. Note: 1) Set `COOKIE_DOMAIN=tracker-ui-yiwenfang.herokuapp.com` instead of `herokuapp.com`; 2) Replace `process.env.DB_URL` with `process.env.MONGODB_URI` in `db.js`.
 
 
 ---
